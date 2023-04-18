@@ -11,7 +11,7 @@ step 2: npm i.
 step 3: nodemon server.js
 ```
 
-When call Post api for posting event data you can get given data as responce.
+When call Post api for posting event data you can get given data as a responce.
 
 
 ![Screenshot from 2023-04-18 15-34-20](https://user-images.githubusercontent.com/70260207/232747559-c0bae4da-4379-4077-bbd0-565a3999a5d2.png)
