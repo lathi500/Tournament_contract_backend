@@ -1,7 +1,7 @@
 # Tournament_contract_backend-
 Backend API using node js. for mangaing created tournaments data.
 
-Here I am storing all the created tournaments data in mongodb atlas databse. by listening emitted events when admin create new tournament.
+Here I am storing all the created tournaments data in mongodb atlas databse. by listening emitted events when admin create a new tournament.
 
 For runnig project do follow the steps:
 
