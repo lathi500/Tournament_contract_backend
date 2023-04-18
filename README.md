@@ -28,4 +28,4 @@ Note: add given data in .env file:
 3. network rpc provider( Mumbai network )
 ```
 
-Smart contract address: 0x7Fa3C096F73A569e1097E8F40A11d3d8C7bA13FA ( deployed on mumbai neteork ).
+Smart contract address: 0x7Fa3C096F73A569e1097E8F40A11d3d8C7bA13FA ( deployed on polygon mumbai network ).
