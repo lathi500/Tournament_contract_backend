@@ -20,3 +20,12 @@ When call Post api for posting event data you can get given data as responce.
 Data in database.
 
 ![Screenshot from 2023-04-18 15-34-44](https://user-images.githubusercontent.com/70260207/232747603-ec2abd97-4af0-4442-8573-151524313458.png)
+
+```shell 
+Note: add given data in .env file:
+1. Mongo Atlas Password.
+2. any account private key
+3. network rpc provider( Mumbai network )
+```
+
+Smart contract address: 0x7Fa3C096F73A569e1097E8F40A11d3d8C7bA13FA ( deployed on mumbai neteork ).
