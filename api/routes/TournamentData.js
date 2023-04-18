@@ -16,27 +16,6 @@ var provider = new Provider(privatekey, rpc);
 var web3 = new Web3(provider);
 var mycontract = new web3.eth.Contract(contractABI, contracAddress);
 
-router.get('/getdata', async (req, res, next) => {
-
-    const name = await mycontract.methods.name().call();
-    const age = await mycontract.methods.age().call();
-    console.log(name);
-    console.log(age);
-
-    if (name, age) {
-        res.status(200).json({
-            Name: name,
-            Age: age
-        })
-    }
-    else {
-        res.status(500).json({
-            message: "ERROR"
-        });
-    }
-
-})
-
 router.post('/adddata', async (req, res, next) => {
 
     let latest_block = await web3.eth.getBlockNumber();
