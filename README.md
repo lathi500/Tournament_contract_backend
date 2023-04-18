@@ -23,8 +23,8 @@ Data in database.
 
 ```shell 
 Note: add given data in .env file:
-1. Mongo Atlas Password.
-2. any account private key
+1. Mongodb Atlas Password.
+2. anyt user account private key
 3. network rpc provider( Mumbai network )
 ```
 
